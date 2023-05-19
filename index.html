@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Öğrenci Kayıt Formu</title>
+</head>
+<body>
+<h1>Öğrenci Kayıt Formu</h1>
+<form action="ogrenci.php" method="POST">
+
+    <label for="fullname">Ad Soyad:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">E-posta:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Cinsiyet:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Erkek</label><br>
+    <input type="radio" id="female" name="gender" value="Female" required>
+    <label for="female">Kadın</label><br><br>
+
+    <input type="submit" value="Kaydet">
+</form>
+</body>
+</html>
